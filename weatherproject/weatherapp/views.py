@@ -14,9 +14,9 @@ def home(request):
     url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=61a9db6fbc7c9827802228e0fb3a3a40'
     PARAMS = {'units': 'metric'}
 
-    API_KEY =  'AIzaSyB_k8lUNNljl0d444DU4TUmWbX2ObRMgv4'
+    API_KEY =  'Your Api Key'
 
-    SEARCH_ENGINE_ID = '43dcc7b26b34040e7'
+    SEARCH_ENGINE_ID = 'You id'
      
     query = city + " 1920x1080"
     page = 1
